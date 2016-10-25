@@ -24,7 +24,8 @@ function growYourTree(tree) {
  		
 		
   	
-}
+ }
+
 
 	
 
@@ -40,7 +41,7 @@ function checkInput () {
 
 		alert("Both fields must have a value");
 	}
-	console.log(height.value, character.value);
+
 }
 
 
