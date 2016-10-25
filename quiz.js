@@ -31,7 +31,7 @@ function growYourTree(tree) {
 
  
 function checkInput () {
-	//var tree ={};
+	
 	if (height.value && character.value) {
 		//tree.height = height.value;
 		//tree.character = character.value;
