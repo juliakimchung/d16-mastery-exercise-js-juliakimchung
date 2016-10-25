@@ -17,13 +17,7 @@ function growYourTree(tree) {
 	  	var inputChar = tree.character;
 
 		console.log (" ".repeat(height.value--) + inputChar.repeat((i*2)-1));
- 		
- 
-		
-}
- 		
-		
-  	
+ }
  }
 
 
@@ -41,7 +35,6 @@ function checkInput () {
 
 		alert("Both fields must have a value");
 	}
-
 }
 
 
