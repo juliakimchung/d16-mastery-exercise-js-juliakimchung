@@ -37,11 +37,10 @@ function checkInput () {
 		growYourTree ();
 	} else  {
 
-
 		alert("Both fields must have a value");
 	}
 }
 
- treeButton.addEventListener("click", checkInput); 
+	treeButton.addEventListener("click", checkInput); 
 
  
