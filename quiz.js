@@ -10,10 +10,9 @@ function growYourTree(a, b) {
 			height: height.value,
 			character: character.value
 		}
-	var inject = document.getElementById("yourTree");
+	
 	  
-	  	
-	for (var i = 1; i < tree.height;  i++ ) {
+	  	for (var i = 1; i < tree.height;  i++ ) {
 		
 	  	var inputChar = tree.character;
 	  	 var myTree =  " ".repeat(height.value--) + inputChar.repeat((i*2)-1) ;
